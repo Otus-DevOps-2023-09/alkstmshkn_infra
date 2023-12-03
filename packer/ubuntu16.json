@@ -2,7 +2,7 @@
     "builders": [
         {
             "type": "yandex",
-            "service_account_key_file": "/home/alkstmshkn/key.json",
+            "service_account_key_file": "~/.ssh/test.key.json",
             "folder_id": "b1gsnn20hr06bqfra90t",
             "zone":      "ru-central1-b",
 
