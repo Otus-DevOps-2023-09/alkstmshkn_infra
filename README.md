@@ -9,6 +9,11 @@ ssh -i ~/.ssh/appuser appuser@10.128.0.5
 bastion_IP = 62.84.126.94
 someinternalhost_IP = 10.128.0.5
 
+#HW_4 развертывание тестового приложения
+
+testapp_IP = 62.84.126.94
+testapp_port = 9292
+
 #HW5. Сборка образа с помощью Packer
 создал ветку packer-base, установил Packer
 создал сервисный аккаунт yc и экспортировал ключ
