@@ -6,7 +6,7 @@ ssh -A -t appuser@62.84.126.94 ssh appuser@10.128.0.5
 #впн проверен
 ssh -i ~/.ssh/appuser appuser@10.128.0.5
 
-bastion_IP = 62.84.126.94
+bastion_IP = 158.160.125.154
 someinternalhost_IP = 10.128.0.5
 
 #HW_4 развертывание тестового приложения
