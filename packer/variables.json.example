@@ -1,0 +1,15 @@
+{
+    "key_file": "test.key.json",
+    "folder_id": "b1gsnn20hr06bqfra90t",
+    "source_image_id": "fd8an808ivtptq6jemm6",
+    "source_image_family": "ubuntu-1604-lts",
+    "image_name": "reddit-base-{{timestamp}}",
+    "image_family": "reddit-base",
+    "ssh_username": "ubuntu",
+    "use_ipv4_nat": "true",
+    "platform_id": "standard-v1",
+    "disk_size_gb": "10",
+    "instance_cores": "2",
+    "instance_mem_gb": "2",
+    "zone": "ru-central1-b"
+}
