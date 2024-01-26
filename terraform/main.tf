@@ -1,3 +1,4 @@
+/*
 terraform {
   required_version = ">= 1.0.0"
   required_providers {
@@ -7,6 +8,7 @@ terraform {
     }
   }
 }
+*/
 
 provider "yandex" {
   token        = "y0_AgAAAABnLd1xAATuwQAAAADx1DGGysVphsgSRuWK45ij3VKk02G66jk"
