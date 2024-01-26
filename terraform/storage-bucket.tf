@@ -18,7 +18,7 @@ terraform {
     skip_credentials_validation = true
     }
   }
-}
+
 
 provider "yandex" {
   service_account_key_file = var.service_account_key_file
