@@ -4,7 +4,7 @@
             "type": "yandex",
             "service_account_key_file": "test.key.json",
             "folder_id": "b1gsnn20hr06bqfra90t",
-            "zone":      "ru-central1-b",
+            "zone":      "ru-central1-a",
 
             "source_image_family": "ubuntu-1604-lts",
             "image_name": "reddit-base-{{timestamp}}",
