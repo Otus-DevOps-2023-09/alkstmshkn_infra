@@ -5,21 +5,27 @@ terraform {
 #    }
 #  }
 #  required_version = ">= 0.13"
-  backend "s3" {
-    endpoint = "storage.yandexcloud.net"
-    bucket   = "terraform.test"
-    region   = "ru-central1-a"
-    key      = "states/stage/terraform.test"
+backend "s3" {
+    endpoints = {
+      s3 = "https://storage.yandexcloud.net"
+    }
+    bucket          = "terraform.test"
+    region          = "ru-central1-a"
+    key             = "states/terraform.tfstate"
+access_key         = "YCAJEireu83n8xxxxxxxxxxxx]"
+secret_key         = "YCONJPmCQ9JJ08-BgswJT6Wgxxxxxxxxxxxx"
 
     skip_region_validation      = true
     skip_credentials_validation = true
+    skip_requesting_account_id  = true
+
   }
 }
 
 
-provider "yandex" {
-  service_account_key_file = var.service_account_key_file
-  cloud_id                 = var.cloud_id
-  folder_id                = var.folder_id
-  zone                     = var.zone
-}
+#provider "yandex" {
+# service_account_key_file = var.service_account_key_file
+  #cloud_id                 = var.cloud_id
+  #folder_id                = var.folder_id
+  #zone                     = var.zone
+#}
