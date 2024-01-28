@@ -36,3 +36,9 @@ default = "reddit-db-base"
 variable "environment_space" {
   description = "Environment space prod"
 }
+variable "access_key" {
+  description = "key for s3 bucket"
+}
+variable secret_key {
+  description = "secret for s3 bucket"
+}
