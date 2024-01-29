@@ -5,3 +5,5 @@
 .terraform/
 .terraform.old/
 *.old
+*.OLD
+provider.tf
