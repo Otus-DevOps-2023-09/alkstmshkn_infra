@@ -2,3 +2,5 @@ v_ansible/
 v1_ansible/
 *.old
 ../terraform/
+./terraform/
+terraform/
