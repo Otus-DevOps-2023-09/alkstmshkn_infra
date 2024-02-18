@@ -12,8 +12,9 @@ resource "yandex_compute_instance" "db" {
   }
 
   resources {
-    cores  = 2
-    memory = 2
+    core_fraction = 20
+    cores         = 2
+    memory        = 2
   }
 
   boot_disk {

@@ -46,3 +46,29 @@ external_ip_address_db = "51.250.89.190"
 создал инфраструктуру для окружений stage и prod
 проверил оба окружения
 добавил описание backend для stage и prod
+
+HW_8. Ansible-1
+создал окружение и установил ansible с помощью pip
+поднял инфраструктуру контура stage
+external_ip_address_app = "158.160.55.243"
+external_ip_address_db = "62.84.127.171"
+создал inventory, проверил ддоступность хостов для ansible
+проверил рабооту инвентори в разных вариациях, создал inventory.yml
+проверил inventory.yml, проверил модули command, shell, service, git
+Создан и протестирован плейбук clone.yml
+успешный пинг ansible all -m ping -i inventory
+проверка динамического инвентори: ansible all -m ping -i inventory.sh
+158.160.55.243 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+62.84.127.171 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}

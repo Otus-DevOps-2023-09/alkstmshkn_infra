@@ -10,8 +10,9 @@ resource "yandex_compute_instance" "app" {
     tags   = "reddit-app"
   }
   resources {
-    cores  = 2
-    memory = 2
+    core_fraction = 20
+    cores         = 2
+    memory        = 2
   }
   boot_disk {
     initialize_params {
