@@ -42,3 +42,7 @@ variable "access_key" {
 variable secret_key {
   description = "secret for s3 bucket"
 }
+variable yc_token {
+  type        = string
+    description = "yc_token"
+}

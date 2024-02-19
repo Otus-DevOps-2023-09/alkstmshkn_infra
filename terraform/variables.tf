@@ -33,3 +33,13 @@ variable db_disk_image {
 description = "Disk image for reddit db"
 default = "reddit-db-base"
 }
+variable "access_key" {
+  description = "key for s3 bucket"
+}
+variable secret_key {
+  description = "secret for s3 bucket"
+}
+variable yc_token {
+  type        = string
+    description = "yc_token"
+}
