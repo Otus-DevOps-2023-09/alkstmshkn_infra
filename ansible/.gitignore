@@ -2,7 +2,7 @@ v_ansible/
 v1_ansible/
 *.old
 ../terraform/.gitignore
-../terraform/.terraform.lock.hcl
+*.lock.hcl
 ../terraform/files/
 ../terraform/outputs.tf
 ../terraform/prod/.terraform.lock.hcl
