@@ -1,5 +1,5 @@
 {
-    "key_file": "/home/alkstmshkn/works/alkstmshkn_infra/packer/test.key.json",
+    "key_file": "/home/alkstmshkn/works/alkstmshkn_infra/packer/test.key.json.example",
     "folder_id": "b1gsnn20hr06bqfra90t",
     "source_image_id": "fd8an808ivtptq6jemm6",
     "source_image_family": "ubuntu-1604-lts",
