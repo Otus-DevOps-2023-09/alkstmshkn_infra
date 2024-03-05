@@ -12,3 +12,5 @@ terraform/stage/.terraform.lock.hcl
 ../terraform/stage/backend.tf
 ../terraform/stage/outputs.tf
 jdauphant.nginx
+jdauphant.nginx/
+roles/jdauphant.nginx/
