@@ -14,3 +14,4 @@ terraform/stage/.terraform.lock.hcl
 jdauphant.nginx
 jdauphant.nginx/
 roles/jdauphant.nginx/
+vault.key
